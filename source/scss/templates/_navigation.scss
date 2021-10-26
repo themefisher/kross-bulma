@@ -1,0 +1,26 @@
+.navbar {
+  padding: 40px 130px;
+  transition: .3s ease;
+  background: transparent !important;
+
+  &.nav-bg {
+    background-color: $primary-color !important;
+    padding: 15px 100px;
+
+    @include desktop {
+      padding: 15px 20px;
+    }
+  }
+
+  @include desktop {
+    padding: 20px;
+    background: $primary-color !important;
+  }
+
+  &-item {
+    text-transform: uppercase;
+    &:hover{
+      background-color: transparent !important;
+    }
+  }
+}
