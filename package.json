@@ -1,22 +1,26 @@
 {
-  "name": "themefisher-boilerplate-free",
-  "version": "2.2.3",
-  "description": "Gulp environment for running HTML themes by themefisher",
-  "keywords": [
-    "gulp",
-    "frontend"
-  ],
+  "name": "kross-bulma",
+  "version": "1.0.0",
+  "description": "kross free bulma portfolio template",
   "author": "Themefisher",
   "license": "MIT",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
   "dependencies": {
-    "browser-sync": "^2.27.5",
+    "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-file-include": "^2.3.0",
+    "gulp-header-comment": "^0.10.0",
+    "gulp-jshint": "^2.1.0",
     "gulp-rimraf": "^1.0.0",
-    "gulp-sass": "^5.0.0",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-header-comment": "^0.9.0",
-    "sass": "^1.37.5"
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.13.4",
+    "jshint-stylish": "^2.2.1",
+    "sass": "^1.53.0"
   }
 }

@@ -1,67 +1,80 @@
-<div align="center">
+# Kross Free Bulma Portfolio Template
 
-# <a href="https://themefisher.com/" target="_blank" rel="noopener noreferrer">Kross Creative Portfolio Template (MIT License)</a>
+![kross](https://demo.themefisher.com/thumbnails/kross.png)
 
-</div>
+👉🏻[View Live Preview](https://demo.themefisher.com/kross-bulma/)
 
-<div align="center">
+<!-- download -->
+## Download And installation
 
-![GitHub stars](https://img.shields.io/github/stars/themefisher/kross-bulma-portfolio-template.svg?color="brightgreen"&style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/themefisher/kross-bulma-portfolio-template.svg?color="success"&style=flat-square)
-![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themefisher/kross-bulma-portfolio-template.svg?color="orange"&style=flat-square)
-![license](https://img.shields.io/badge/license-MIT-blue.svg?&style=flat-square)
+Download this template from [Github](https://github.com/themefisher/kross-bulma/archive/main.zip)
 
-</div>
+<!-- installation -->
+### Basic Usages
 
-<div align="center">
-<img src="src/images/github/kross-homepage.gif"  width="100%" alt="kross portfolio template by themefisher">
-</div>
+After downloading the template, you can simply edit the HTML and CSS files from the `theme` folder. To preview the changes you make to the code, you can open the index.html file in your web browser.
 
-**Kross Portfolio Templates** - Kross is a creative, sleek and modern portfolio website template with a gorgeous appearance. It appears with an amazing, stunning graphics. The minimal interface with the necessary sections will surely help the visitors to get a thorough idea about your works.Put together beginners in mind, kross is very easy to use and built with a clean and valid international standard coding structure.
+### Advanced Usage
 
-## Table of Contents
+For advanced usage, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
 
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Plugins](#plugins)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
-- [Licensing](#licensing)
-- [More Portfolio Templates](https://themefisher.com/bulma-portfolio-templates/)
+#### Install prerequisites (once for a machine)
 
-## Demo
+* **Node Installation:** [Install node js](https://nodejs.org/en/download/)
+* **Gulp Installation:** Install gulp globally from your terminal
 
-| Homepage  | About  | Blog  | Portfolio  | Contact  |
-|---|---|---|---|---|
-| [![Homepage](src/images/github/homepage.png)](http://demo.themefisher.com/kross/)  | [![About](src/images/github/about.png)](http://demo.themefisher.com/kross/about.html) | [![Blog](src/images/github/blog.png)](http://demo.themefisher.com/kross/blog.html) | [![portfolio](src/images/github/portfolio.png)](http://demo.themefisher.com/kross/portfolio.html) | [![contact](src/images/github/contact.png)](http://demo.themefisher.com/kross/contact.html)
+```
+npm install --global gulp-cli
+```
 
-[Live Preview](http://demo.themefisher.com/kross).
+Or visit the original [Gulp docs](https://gulpjs.com/docs/en/getting-started/quick-start)
 
-## Quick Start
-Quick start options:
+#### Local setup
 
-- Clone the repo: `git clone https://github.com/themefisher/kross-bulma-portfolio-template.git`.
-- [Download from Github](https://github.com/themefisher/kross-bulma-portfolio-template/archive/master.zip).
-- [Download from themefisher website](https://themefisher.com/products/kross-creative-portfolio-template).
+After successfully installing those dependencies, open this theme with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
 
-## Plugins
-* bulma - https://bulma.io
-* Jquery - 	https://jquery.com/
-* Shuffle - 	https://vestride.github.io/Shuffle/
-* slick slider - 	https://kenwheeler.github.io/slick/
-* Themify Icons - 	https://themify.me/themify-icons
+* Install dependencies
 
+```
+npm install
+```
 
+* Run locally
+
+```
+npm run dev
+```
+
+After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live reload the browser when changes are saved.
+
+#### Production Build
+
+After finishing all the customization, you can create a production build by running this command.
+
+```
+npm run build
+```
+
+Now you get a `theme` folder that has all the changes you have made. you can use this folder as your main theme.
+
+👉🏻 [visit documentation](https://docs.themefisher.com/kross-bulma/)
+
+<!-- reporting issue -->
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the **Kross Theme**. Please Search [existing issues](https://github.com/themefisher/kross-bulma-portfolio-template/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/kross-bulma-portfolio-template/issues/new)
+We use GitHub Issues as the official bug tracker for the kross-bulma Template. Please Search [existing issues](https://github.com/themefisher/kross-bulma/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/kross-bulma/issues).
 
-## Technical Support or Questions
+<!-- support -->
+## Technical Support or Questions (Paid)
 
-If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
+If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.
 
-## Licensing
+<!-- licence -->
+## License
 
-- Copyright 2019 Themefisher (https://themefisher.com/)
-- Licensed under MIT (https://github.com/themefisher/kross-bulma-portfolio-template/blob/master/LICENSE)
+Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+
+**Code License:** Released under the [MIT](https://github.com/themefisher/kross-bulma/blob/main/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
