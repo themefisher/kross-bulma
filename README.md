@@ -1,6 +1,6 @@
 # Kross Free Bulma Portfolio Template
 
-![kross](https://demo.themefisher.com/thumbnails/kross.png)
+![kross](https://assets.teamosis.com/thumbs/kross.png)
 
 👉🏻[View Live Preview](https://demo.themefisher.com/kross-bulma/)
 
